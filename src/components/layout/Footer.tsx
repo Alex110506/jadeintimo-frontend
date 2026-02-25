@@ -77,9 +77,13 @@ const Footer = () => {
               <br />
               Site realizat de <a className="underline hover:text-foreground transition-colors" href="https://www.linkedin.com/in/alexandru-r%C4%83dulescu-12b115264/" target="_blank" rel="noopener noreferrer">Rădulescu Alexandru Marius</a>
             </p>
-            <div className="flex gap-6">
+            <div className="flex gap-6 ">
               <Link to="/termeni_si_conditii" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
                 Termeni și Condiții
+              </Link>
+
+              <Link to="/politica_si_confidentialitate" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
+                Politică și Confidențialitate
               </Link>
             </div>
           </div>

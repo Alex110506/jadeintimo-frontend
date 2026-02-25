@@ -37,6 +37,7 @@ import LivrareRetur from "./pages/footerPages/LivrareRetur.tsx";
 import TermeniConditii from "./pages/footerPages/TermeniConditii.tsx";
 
 import RouteTracker from "./hooks/RouteTracker.tsx";
+import PrivacyPolicy from "./pages/footerPages/PrivacyPolicy.tsx";
 
 const queryClient = new QueryClient();
 
@@ -198,6 +199,7 @@ const App = () => {
                 <Route path="asistenta" element={<Asistenta/>}/>
                 <Route path="livrare_si_retur" element={<LivrareRetur/>}/>
                 <Route path="termeni_si_conditii" element={<TermeniConditii/>}/>
+                <Route path="politica_si_confidentialitate" element={<PrivacyPolicy/>}/>
                 
                 <Route path="*" element={<NotFound />} />
               </Routes>
