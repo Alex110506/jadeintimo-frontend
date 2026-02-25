@@ -36,6 +36,8 @@ import Asistenta from "./pages/footerPages/Asistenta.tsx";
 import LivrareRetur from "./pages/footerPages/LivrareRetur.tsx";
 import TermeniConditii from "./pages/footerPages/TermeniConditii.tsx";
 
+import RouteTracker from "./hooks/RouteTracker.tsx";
+
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -138,6 +140,8 @@ const App = () => {
             <Toaster />
             <Sonner />
             <BrowserRouter>
+              <RouteTracker/>
+
               <Routes>
                 <Route path="/" element={<Index />} />
 
