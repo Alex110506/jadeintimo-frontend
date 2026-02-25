@@ -48,7 +48,7 @@ const App = () => {
   useEffect(() => {
     const verifyUser = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/auth/me", {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/me`, {
           method: "GET",
           headers: { "Content-Type": "application/json" },
           credentials: "include",
@@ -59,7 +59,7 @@ const App = () => {
           setUser(data.user);
 
           try {
-            const addressResponse = await fetch("http://localhost:3000/api/auth/getAddress", {
+            const addressResponse = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/getAddress`, {
               method: "GET",
               headers: { "Content-Type": "application/json" },
               credentials: "include",
@@ -73,7 +73,7 @@ const App = () => {
           }
 
           try {
-            const cartResponse = await fetch("http://localhost:3000/api/cart", {
+            const cartResponse = await fetch(`${import.meta.env.VITE_API_URL}/api/cart`, {
               method: "GET",
               headers: { "Content-Type": "application/json" },
               credentials: "include",

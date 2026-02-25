@@ -29,7 +29,7 @@ const SuccessPage = () => {
 
       try {
         // 2. Call API to verify payment AND place order
-        const res = await fetch("http://localhost:3000/api/order/place", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/order/place`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           credentials: "include", 
