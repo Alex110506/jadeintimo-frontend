@@ -34,7 +34,7 @@ const LivrareRetur = () => {
                     Comenzile sunt expediate prin curier rapid (ex: Fan Courier / Sameday) oriunde în România.
                   </p>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li className="flex items-center gap-2"><Box size={16} /> Cost transport: <strong>20 RON</strong></li>
+                    <li className="flex items-center gap-2"><Box size={16} /> Cost transport: <strong>25 RON</strong></li>
                     <li className="flex items-center gap-2"><Truck size={16} /> Timp de livrare: <strong>1 - 3 zile lucrătoare</strong></li>
                   </ul>
                 </div>
@@ -44,8 +44,8 @@ const LivrareRetur = () => {
                   <p className="text-muted-foreground mb-4">
                     Pentru a te bucura de produsele noastre fără grija transportului, îți oferim livrare gratuită pentru comenzile mai mari.
                   </p>
-                  <div className="inline-block px-4 py-2 bg-foreground text-background text-sm font-medium rounded-md">
-                    Gratuit la comenzi peste 300 RON
+                    <div className="inline-block px-4 py-2 bg-foreground text-background text-sm font-medium rounded-md">
+                    Gratuit la comenzi peste 500 RON
                   </div>
                 </div>
               </div>

@@ -61,7 +61,7 @@ const Index = () => {
     <>
       <SEO 
         title="Jade Intimo | Lenjerie Intimă & Loungewear Premium"
-        description="Cumpără sutiene, chiloți, pijamale și costume de baie. Transport gratuit la comenzi peste 100 RON."
+        description="Cumpără sutiene, chiloți, pijamale și costume de baie. Transport gratuit la comenzi peste 500 RON."
         url="https://jade-intimo.com"
         schema={homeSchema}
       />

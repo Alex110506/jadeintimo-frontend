@@ -25,7 +25,7 @@ const Faq = () => {
     },
     {
       question: "Cât durează și cât costă livrarea?",
-      answer: "Livrarea costă 20 RON și se face prin curier rapid. Timpul estimat de livrare este între 1 și 3 zile lucrătoare de la confirmarea comenzii. Pentru comenzile de peste 300 RON, transportul este gratuit."
+      answer: "Livrarea costă 25 RON și se face prin curier rapid. Timpul estimat de livrare este între 1 și 3 zile lucrătoare de la confirmarea comenzii. Pentru comenzile de peste 500 RON, transportul este gratuit."
     },
     {
       question: "Cum se întrețin corect produsele din materiale fine (dantelă, mătase)?",

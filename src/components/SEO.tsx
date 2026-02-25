@@ -11,7 +11,7 @@ interface SEOProps {
 }
 
 const defaultTitle = 'Jade Intimo | Premium Intimates & Loungewear';
-const defaultDescription = 'Discover luxurious intimates, lingerie, and loungewear designed for the modern woman and man. Shop bras, panties, pajamas, and swimwear with free shipping over $100.';
+const defaultDescription = 'Discover luxurious intimates, lingerie, and loungewear designed for the modern woman and man. Shop bras, panties, pajamas, and swimwear with free shipping over 500 Ron.';
 const defaultImage = 'https://lovable.dev/opengraph-image-p98pqg.png';
 const siteUrl = 'https://jade-intimo.com';
 

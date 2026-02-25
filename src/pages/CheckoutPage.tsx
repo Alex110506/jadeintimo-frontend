@@ -25,7 +25,7 @@ const CheckoutPage = () => {
   const isAuthenticated = useAuthStore((state: any) => state.isAuthenticated);
 
   const cartTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-  const shippingCost = cartTotal > 10000 ? 0 : 1000; 
+  const shippingCost = cartTotal > 50000 ? 0 : 2500; 
   const finalTotal = cartTotal;
 
   // Transform cart items to match backend snake_case expectation

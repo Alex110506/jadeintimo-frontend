@@ -22,8 +22,8 @@ const CartPage = () => {
   // Presupunem că prețul vine în bani (ex: 15900 pentru 159.00 RON) deci împărțim la 100
   const cartTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0) / 100;
   
-  const freeShippingThreshold = 100; // ex: 250 RON pentru transport gratuit
-  const shippingCost = cartTotal > freeShippingThreshold ? 0 : 10.00; // ex: 19.99 RON transport
+  const freeShippingThreshold = 500; // 500 RON pentru transport gratuit
+  const shippingCost = cartTotal > freeShippingThreshold ? 0 : 25.00; // 25 RON transport
   const finalTotal = cartTotal + shippingCost;
 
   // 3. Handlers pentru acțiuni (Sincronizare API + Zustand)
