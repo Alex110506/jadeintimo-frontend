@@ -5,8 +5,8 @@ import { useGender } from '@/context/GenderContext';
 
 const domain=import.meta.env.VITE_CLOUDFLARE_DOMAIN
 
-const heroWomen = `${domain}/hero-women.jpg`
-const heroMen=`${domain}/men.png`
+const heroWomen = `${domain}/hero-women.webp`
+const heroMen=`${domain}/men.webp`
 
 const Hero = () => {
   const { gender } = useGender();

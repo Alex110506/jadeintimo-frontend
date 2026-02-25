@@ -15,7 +15,7 @@ const defaultDescription = 'Discover luxurious intimates, lingerie, and loungewe
 const defaultImage = 'https://lovable.dev/opengraph-image-p98pqg.png';
 const siteUrl = 'https://jade-intimo.com';
 
-const domain=import.meta.env.VITE_CLUDFLARE_DOMAIN;
+const domain=import.meta.env.VITE_CLOUDFLARE_DOMAIN;
 
 const SEO = ({
   title = defaultTitle,
